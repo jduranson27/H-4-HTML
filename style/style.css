@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    /* colores */
+    --bg-marron: #B88940;
+    --bg-amarillo: #FFBD59;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.divisor{
+    width: 90px;
+    height: 5px;
+    background-color: black;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.hero{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+h1{
+    font-family: "Ruda", sans-serif;
+    font-weight: 900;
+    word-spacing: 6px;
+    font-size: 30px; 
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: auto;
+}
+
+
+.estilo-h-2{
+    font-family: "Ruda", sans-serif;
+    font-weight: 900;
+    color: var(--bg-marron);
+    font-size: 100px;
+    letter-spacing: 15px;
+    
+    margin: 0px 20px 20px 20px;
+    width: auto;
+    line-height: 90%;
+}
+
+.estilo-h-3{
+    font-family: "Ruda", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.estilo-a-1{
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    word-spacing: 6px;
+    margin: 10px; 
+}   
+article{
+    margin-top: 200px;
+    
+    position: relative;
+    padding: 10px;
+}
+
+img{
+    width: 300px;
+    height: 450px;
+    margin-right: 6px;
+    margin-left: 6px;
+    position: relative;
+    z-index: 10;
+}
+
+.espacio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.centrado-texto{
+    font-family: "Catamaran", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    word-spacing: 6px;
+    text-align: center;
+    line-height: 90%;
+    margin-top: 10px;
+}
+
+
+.franjas{
+    width: 95%;
+    height: 50px;
+    background-color: var(--bg-amarillo);
+    
+}
+
+#franja-1{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    z-index: 0;
+}
+
+#franja-2{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    z-index: 0;
+}
+
+#franja-3{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    z-index: 0;
+}
+
+#franja-4{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    z-index: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+}
+
+.texto-pie-pagina{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: var(--bg-marron);
+    line-height: 90%;
+    margin-bottom: 2px;
+}
+
+.texto-final{
+    font-family: "Catamaran", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 90%;
+    margin-top: 2px;
+}
